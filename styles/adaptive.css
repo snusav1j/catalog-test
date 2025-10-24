@@ -1,0 +1,294 @@
+@media screen and (max-width: 1500px){
+  .template-header{
+    padding: 20px 35px;
+  }
+  .template-body{
+    padding: 20px 35px;
+  }
+  .monoblok-website-link{
+    padding: 10px 25px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .template-header{
+    padding: 15px 20px;
+  }
+  .template-body{
+    padding: 15px 20px;
+  }
+  .monoblok-website-link{
+    padding: 5px 15px;
+  }
+}
+
+/* ------------------ BASE ------------------ */
+.big-text {
+  font-size: 35px;
+}
+.medium-text {
+  font-size: 22px;
+}
+.small-text {
+  font-size: 16px;
+}
+.mini-text {
+  font-size: 12px;
+}
+
+/* ------------------ 1500px and below ------------------ */
+@media (max-width: 1500px) {
+  .big-text {
+    font-size: 32px;
+  }
+  .medium-text {
+    font-size: 20px;
+  }
+  .small-text {
+    font-size: 15px;
+  }
+  .mini-text {
+    font-size: 11px;
+  }
+}
+
+/* ------------------ 1200px and below ------------------ */
+@media (max-width: 1200px) {
+  .big-text {
+    font-size: 28px;
+  }
+  .medium-text {
+    font-size: 18px;
+  }
+  .small-text {
+    font-size: 14px;
+  }
+  .mini-text {
+    font-size: 10px;
+  }
+}
+
+/* ------------------ 767px and below (tablet) ------------------ */
+@media (max-width: 767px) {
+  .big-text {
+    font-size: 24px;
+  }
+  .medium-text {
+    font-size: 16px;
+  }
+  .small-text {
+    font-size: 13px;
+  }
+  .mini-text {
+    font-size: 9px;
+  }
+}
+
+/* ------------------ 480px and below (mobile) ------------------ */
+@media (max-width: 480px) {
+  .big-text {
+    font-size: 20px;
+  }
+  .medium-text {
+    font-size: 14px;
+  }
+  .small-text {
+    font-size: 12px;
+  }
+  .mini-text {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .welcome-page-title{
+    right: unset;
+    padding: 20px;
+    bottom: 5%;
+  }
+  .welcome-page-title .xxxl-text{
+    margin: -3px !important;
+    font-size: 55px;
+  }
+  .welcome-page-title .xxl-text{
+    font-size: 24px;
+  }
+  .welcome-page-title a img{
+    max-width: 150px;
+  }
+  img.tesla-logo-icon{
+    max-width: 100px;
+    margin-top: 10px !important;
+  }
+  .tesla-sun-icon{
+    max-width: 350px;
+  }
+  .monoblok-template-header-title{
+    font-size: 10px !important;
+  }
+  .monoblok-model-header-title{
+    font-size: 18px !important;
+  }
+  .mb-drawing-2, .mb-drawing-1{
+    text-align: center;
+    margin: 0 !important;
+    right: 0;
+  }
+  .mb-drawing-1{
+    left: 22px;
+  }
+  .mb-drawing-2 img{
+    max-width: 300px;
+    padding: 5px;
+  }
+  .mb-drawing-1 img{
+    max-width: 160px;
+    padding: 5px;
+  }
+  .template-header{
+    height: 30%;
+
+    max-height: 150px;
+    min-height: 150px;
+  }
+  .flex-column-template{
+    flex-direction: column-reverse !important;
+    gap: 30px;
+  }
+  .main-info-blocks{
+    margin-top: 10px !important;
+  }
+  .company-name{
+    display: none;
+  }
+  .features-title{
+    font-size: 13px;
+  }
+  .information-block-features{
+    bottom: 15px;
+    left: 15px;
+    padding-right: 10px;
+  }
+  .main-info-block-title{
+    /* font-size: 13px; */
+    margin-bottom: 10px !important;
+  }
+  .colors-block span{
+    display: none;
+  }
+  .colors-block{
+    gap: 10px !important;
+  }
+  .colors-block{
+    margin-bottom: 45px;
+  }
+  .mb-drawing-2,
+  .mb-drawing-1{
+    /* display: none; */
+  }
+  .colors-block .color-black-icon,
+  .colors-block .color-grey-icon,
+  .colors-block .color-white-icon{
+    width: 30px;
+    height: 30px;
+
+  }
+  .template-body{
+    padding: 10px !important;
+  }
+  .main-info-block-title{
+    margin-bottom: 5px !important;
+    font-size: 12px;
+  }
+  ul.features-column li{
+    font-size: 10px !important;
+  }
+  .main-info-group-blocks{
+    margin-top: 5px !important;
+  }
+  .warranty-block{
+    padding: 7px 20px !important;
+    font-size: 11px !important;
+    margin: 0;
+  }
+  a.monoblok-website-link{
+    font-size: 11px !important;
+  }
+  .bottom-block-absolute-position{
+    bottom: 5px;
+  }
+  hr{
+    margin: 10px 0 !important;
+  }
+}
+
+@media screen and (max-width: 1150px){
+  .mb-image{
+    margin-left: 0;
+    text-align: center;
+    margin-top: -50px;
+  }
+  .mb-image img{
+    max-width: 650px;
+  }
+}
+@media screen and (max-width: 767px){
+  .mb-image{
+    margin-left: 0;
+    text-align: center;
+    margin-top: -50px;
+  }
+  .mb-image img{
+    max-width: 450px;
+  }
+  /* .features-title{
+    margin-top: 15vw;
+  } */
+  .monoblok-template-header-title{
+    font-size: 7.5px !important;
+  }
+  .monoblok-model-header-title-main{
+    font-size: 14px !important;
+  }
+  .monoblok-model-header-title-dop{
+    font-size: 11px !important;
+  }
+  .features-column li{
+    font-size: 11px !important;
+  }
+  .information-block li{
+    font-size: 11px !important;
+    line-height: 1.2;
+  }
+  .main-info-block-title{
+    font-size: 11px !important;
+  }
+}
+
+@media screen and (max-width: 470px){
+  .colors-block{
+    margin-bottom: 25px;
+  }
+  /* .features-title{
+    margin-top: 10vw;
+  } */
+  .mb-image img{
+    max-width: 340px;
+    margin-top: -35px;
+  }
+  .mb-image{
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 387px){
+  .colors-block{
+    margin-bottom: 10px;
+  }
+  /* .features-title{
+    margin-top: 5vw;
+  } */
+  .mb-image img{
+    max-width: 300px;
+  }
+
+  
+}

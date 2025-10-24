@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #1c1c1c;
+  font-size: clamp(8px, 3vw, 16px);
+}
+.mb-drawing-2,
+.mb-drawing-1{
+  width: 100%;
+  text-align: end;
+  position: absolute;
+  right: 50px;
+  z-index: 1110;
+  /* margin-top: 10px; */
+}
+.mb-drawing-2 img{
+  max-width: 800px;
+  padding: 35px 50px;
+}
+.mb-drawing-1 img{
+  max-width: 380px;
+  padding: 35px 50px;
+  margin-right: 50px;
+}
+.xxxl-text {
+  font-size: clamp(30px, 10vw, 120px);  
+}
+.xxl-text {
+  font-size: clamp(10px, 4vw, 45px);
+}
+.big-text {
+  font-size: clamp(20px, 5vw, 35px);
+}
+.medium-text {
+  font-size: clamp(16px, 4vw, 22px);
+}
+
+.title-text{
+  font-size: clamp(14px, 3vw, 18px);
+}
+.small-text {
+  font-size: clamp(12px, 3vw, 16px);
+}
+.mini-text {
+  font-size: clamp(8px, 2.5vw, 12px);
+}
+.tesla-sun-icon{
+  max-width: 600px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+
+/* mb-template-1/2 */
+
+.tesla-logo-icon{
+  max-width: 270px;
+}
+.welcome-page-title{
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+}
+.welcome-page{
+  background: #002243;
+}
+.flex-column-template{
+  display: flex;
+  flex-direction: column;
+}
+.template-header-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.template-header{
+  height: 65%;
+  max-height: 320px;
+  min-height: 320px;
+  padding: 25px 45px;
+  background: #ececec;
+}
+.information-block-features{
+  position: absolute;
+  bottom: 45px;
+  left: 45px;
+}
+.template-body{
+  flex: 1 1 auto;
+  padding: 25px 45px;
+  /* position: relative; */
+}
+#fullpage .section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.monoblok-model-header-title{
+  color: #e13e13;
+  font-weight: 500;
+}
+.monoblok-template-header-title{
+  color: #464644;
+}
+.colors-block{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.colors-block .color-black,
+.colors-block .color-grey,
+.colors-block .color-white{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.colors-block .color-black-icon,
+.colors-block .color-grey-icon,
+.colors-block .color-white-icon{
+  border: 2px solid #1c1c1c;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.colors-block .color-grey-icon{
+  border: unset !important;
+}
+.colors-block .color-black-icon{
+  background: #1c1c1c;
+}
+
+.colors-block .color-grey-icon{
+  background: #b2b2b2;
+}
+
+.features-grid {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+.features-column {
+  flex: 1;
+  list-style: none;
+}
+.features-column li {
+  margin-bottom: 5px;
+  color: #686867;
+}
+.features-column li::before {
+  margin-bottom: 5px;
+  content: "- ";
+}
+
+.features-column li ul{
+  margin-left: 25px;
+  list-style: none !important;
+
+}
+.features-column li ul li::before{
+  content: "+ " !important;
+}
+.main-info-block-title{
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.main-info-group-blocks{
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+.template-header{
+  position: relative;
+}
+hr{
+  color: #000 !important;
+  margin: 20px 0;
+}
+.warranty-block{
+  background: #fec900;
+  padding: 10px 35px;
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+a{
+  text-decoration: none;
+}
+.monoblok-website-link{
+  padding: 20px 35px;
+}
+.bottom-block-absolute-position{
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+}
+
+/* features-template */
+.additional-features-info{
+  color: #686867;
+}
+.additional-features-info{
+  color: #686867;
+}
+.company-name{
+  color: #686867;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.features-title{
+  color: #e13e13;
+  font-weight: 600;
+}
+.mb-image{
+  margin-top: -120px;
+  width: 100%;
+  /* text-align: center; */
+  margin-left: 100px;
+  z-index: 1111;
+}
+.mb-image img{
+  max-width: 930px;
+}
+.colors-block{
+  margin-bottom: 65px;
+}
